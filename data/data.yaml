@@ -1,0 +1,12 @@
+train: train/images
+val: train/images
+
+nc: 1
+names: ['place']
+
+roboflow:
+  workspace: joker-m3ftc
+  project: place-6jrfy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joker-m3ftc/place-6jrfy/dataset/1
