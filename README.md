@@ -1,3 +1,6 @@
+
+B1: pip install -r ./requirement.txt
+  
   # run inference on webcam (15-20fps if there is 1 license plate in scene)
   python webcam.py 
 
