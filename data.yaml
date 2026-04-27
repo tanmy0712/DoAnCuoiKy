@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['xe buyt', 'xe container', 'xe cuu hoa', 'xe dap', 'xe hoi', 'xe may', 'xe tai', 'xe van']
+
+roboflow:
+  workspace: ngohoangphuc
+  project: 640-hutech-vehicle-nq2ts
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ngohoangphuc/640-hutech-vehicle-nq2ts/dataset/2
